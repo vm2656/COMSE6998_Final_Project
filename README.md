@@ -9,6 +9,11 @@ This project has been implemented using Keras and executed on the K80 GPU on Goo
 - Apply Non-Maxima Suppression to filter redundant proposal windows.
 - Return final object detection result.
 
+The repo contains:
+- Python script for object detection.
+- Jupyter notebooks for training and downloading Classifier architectures in the 'Training Logs and Notebooks' folder. 
+- Notebook to implement the pipeline in Google Colab as an alternative to the Python script.
+
 # Instructions 
 
 First, pick a classifier architecture of your choice, and execute the corresponding Jupyter Notebook in the 'Training Logs and Notebooks' folder. Download and store the trained model. Execute the Jupyter Notebook for object detection or run the script by following the instructions below:
