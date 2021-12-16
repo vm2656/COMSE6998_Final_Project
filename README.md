@@ -21,7 +21,7 @@ Install Requirements by opening a terminal and running:
 
 	pip install -r requirements.txt
   
-Download the UECFOOD100 dataset from http://foodcam.mobi/dataset100.html and extract it.
+Download the Food101 dataset from https://data.vision.ee.ethz.ch/cvl/datasets_extra/food-101/ and extract it.
 
 Open terminal and run the following command:
 
@@ -32,15 +32,21 @@ To filter by label, enter the following:
     python region_proposal_detection.py --image example.png --filter pizza
 
 
+# Tables 
+
+
+
 # Example Results
 
 After training till about 92% validation accuracy, some of the results produced by the model are shown below:
 
-![](https://github.com/kosletr/testing/blob/master/imgs/Rice.png) 
+![](https://github.com/vm2656/COMSE6998_Final_Project/blob/main/Images/afternonmax3.png) 
 
-![](https://github.com/kosletr/testing/blob/master/imgs/Spinach.png)
+![](https://github.com/vm2656/COMSE6998_Final_Project/blob/main/Images/afternonmax4.png)
 
-![](https://github.com/kosletr/testing/blob/master/imgs/Multiple.png)
+![](https://github.com/vm2656/COMSE6998_Final_Project/blob/main/Images/afternonmax5.png)
+
+As you can see, the bounding boxes aren't perfect, but the classification works. For further work, these labelled images can be fed to a YOLO, or an RCNN object detection pipeline can be implemented for better accuracy.
 
 # Credits
 Credits to the tutorial on transfer learning found in here:
