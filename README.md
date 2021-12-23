@@ -13,6 +13,7 @@ The repo contains:
 - Python script for object detection.
 - Jupyter notebooks for training and downloading Classifier architectures in the 'Training Logs and Notebooks' folder. 
 - Notebook to implement the pipeline in Google Colab as an alternative to the Python script.
+- Director containing source code of Android App
 
 # Instructions 
 
@@ -42,6 +43,7 @@ To filter by label, enter the following:
 
 ![](https://github.com/vm2656/COMSE6998_Final_Project/blob/main/Images/Table2.png)
 
+![](https://github.com/vm2656/COMSE6998_Final_Project/blob/main/Images/Table3.png)
 
 # Example Results
 
@@ -53,12 +55,18 @@ After training till about 92% validation accuracy, some of the results produced 
 
 ![](https://github.com/vm2656/COMSE6998_Final_Project/blob/main/Images/afternonmax5.png)
 
-As you can see, the bounding boxes aren't perfect, but the classification works. For further work, these labelled images can be fed to a YOLO, or an RCNN object detection pipeline can be implemented for better accuracy.
+As you can see, the bounding boxes aren't perfect, but the classification works. For further work, these labelled images can be fed to a YOLO, or an RCNN object detection pipeline can be implemented for better accuracy.  
+  
+The app was used to classify images using the live camera feed using the tflite model. An example still for the same:
+![](https://github.com/vm2656/COMSE6998_Final_Project/blob/main/Images/app_donut.png)
 
 # Credits
 Credits to the tutorial on transfer learning found in here:
 
 https://medium.com/@manasnarkar/transfer-learning-getting-started-9cebf5855a08
+
+Credits to the app building tutorial found here:
+https://developers.google.com/learn/topics/on-device-ml#build-your-first-on-device-ml-app
 
 Dataset:
 
