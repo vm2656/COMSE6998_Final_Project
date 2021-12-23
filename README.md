@@ -13,7 +13,7 @@ The repo contains:
 - Python script for object detection.
 - Jupyter notebooks for training and downloading Classifier architectures in the 'Training Logs and Notebooks' folder. 
 - Notebook to implement the pipeline in Google Colab as an alternative to the Python script.
-- Director containing source code of Android App
+- Directory containing source code of Android App
 
 # Instructions 
 
